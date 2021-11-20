@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quizapp.css">
+    <script src="script.js"></script>
+<body>
+<div class="quiz">
+<form name="quiz" id="quiz">
+    <h1>Quiz App</h1>
+        
+    <div class="questions">
+        <label class="lbl" name="q1"> 1. Inside which HTML element do you put the JavaScript?</label>
+        
+       <p><input type="radio"  name="q1"  value="A">script </p> 
+       <p><input type="radio"   name="q1"  value="B"> js </p> 
+        <p><input type="radio"  name="q1"  value="C">javascript </p>
+       <br>
+       
+    </div>
+      
+    <div class="questions">
+            <label class="lbl" name="q2"> 2. What is the correct JavaScript synatx to write "Hello World" ?</label>
+
+        <p><input type="radio" name="q2"  value="A"> The head section</p>
+        <p> <input type="radio" name="q2"  value="B">Both the body and head section </p>
+       <p><input type="radio" name="q2"  value="C">The body section </p> 
+    </div>
+   
+    <div class="questions">
+        <label class="lbl" name="q3"> 3. What is the correct syntax for referring to an external script called "File.js"?</label>
+        
+       <p><input type="radio" name="q3"  value="A">script href="File.js"</p> 
+        <p><input type="radio" name="q3"  value="B">script name="File.js"</p>
+       <p><input type="radio" name="q3"  value="C"> script src="File.js"</p> 
+    </div>
+
+    <div class="questions">
+        <label class="lbl" name="q4"> 4. How to write an IF statement in JavaScript?</label>
+        
+       <p><input type="radio" name="q4"  value="A"> if i=5 then   </p> 
+        <p><input type="radio" name="q4"  value="B"> if i=5 </p>
+       <p><input type="radio" name="q4"  value="C"> if (i==5) </p>
+    </div>
+        
+
+    <div class="questions">
+        <label class="lbl" name="q5"> 5. How to do you create function in JavaScript?</label>
+        
+       <p><input type="radio" name="q5"  value="A"> function myfunction()   </p> 
+        <p><input type="radio" name="q5"  value="B"> function = myfunction() </p>
+       <p><input type="radio" name="q5"  value="C"> function:myfunction </p> 
+    </div>
+
+    <div class="questions">
+        <label class="label" name="q6"> 6. Which three web development "languages" are the framework of the HTML5</label>
+          
+        <p><input type="checkbox" name="q61"  value="A"> Cascading Style Sheets </p>
+        <p><input type="checkbox" name="q62"  value="B"> JavaScript </p>
+        <p><input type="checkbox" name="q63"  value="C"> Hypertext Markup Language</p> 
+        <p><input type="checkbox" name="q64"  value="D"> ASP </p>
+        <p><input type="checkbox" name="q65"  value="E"> C#</p> 
+        <p><input type="checkbox" name="q66"  value="F"> JSP</p> 
+    </div> 
+    
+    <div class="questions">
+        <label class="label" name="q7"> 7. What is the purpose of Javascript?</label>
+          
+        <p><input type="checkbox" name="q7"  value="A"> To add dynamic function  </p>
+        <p><input type="checkbox" name="q7"  value="B">To beuatify the website </p>
+        <p><input type="checkbox" name="q7"  value="C">To add content </p> 
+    </div>
+
+    <div class="questions">
+        <label class="label" name="q8"> 8. Which of the following is included in the HTML5 family</label>
+          
+        <p><input type="checkbox" name="q8"  value="A"> HTML Markup, SVG, Java, and Silverlight  </p>
+        <p><input type="checkbox" name="q8"  value="B"> HTML Markup, CSS, and Javascript </p>
+        <p><input type="checkbox" name="q8"  value="C"> HTML Markup and CSS </p> 
+        <p><input type="checkbox" name="q8"  value="D"> HTML Markup, CSS, and Flash </p> 
+    </div>
+
+    <div class="questions">
+        <label class="label" name="q9"> 9. When running an app created with HTML5 in the windows metro style UI, which process hosts
+            the application
+        </label>
+          
+        <p><input type="checkbox" name="q9"  value="A"> iexplore.exe</p>
+        <p><input type="checkbox" name="q9"  value="B"> explorer.exe</p>
+        <p><input type="checkbox" name="q9"  value="C"> svchost.exe</p> 
+        <p><input type="checkbox" name="q9"  value="D"> WWAHost.exe</p> 
+    </div>
+
+    <div class="questions">
+        <label class="label" name="q10"> 10. which three of the following are included in the HTML5 Family
+        </label>
+          
+        <p><input type="checkbox" name="q101"  value="A"> SVG</p>
+        <p><input type="checkbox" name="q102"  value="B"> CSS</p>
+        <p><input type="checkbox" name="q103"  value="C"> Java</p> 
+        <p><input type="checkbox" name="q104"  value="D"> JavaScript</p> 
+        <p><input type="checkbox" name="q105"  value="E"> Silverlight</p> 
+        <p><input type="checkbox" name="q106"  value="F"> HTMLmarkup</p> 
+    </div>
+
+    <input type="button" class="btn" value="Submit" onclick="check()">
+       <p id="result"> </p>
+    </form>
+
+</div>
+
+
+</form>
+    
+</form>
+</body>
+</html>
